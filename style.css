@@ -1,0 +1,94 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(188, 173, 122);
+    font-family: "Play", sans-serif;
+}
+
+#calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    flex: 0 0 400px;
+    height: 700px;
+    gap: 5px;
+    margin-top: 50px;
+}
+
+#display {
+    background-color: rgb(114, 149, 60);
+    border-radius: 5px;
+    flex-grow: 1;
+    font-size: 10px;
+    height: 100px;
+}  
+h1 {
+    margin: 20px;
+}
+p {
+    text-decoration: underline;
+}
+#frame {
+    display: flex;
+    flex-direction: column;
+    border: 5px;
+    border-radius: 15px;
+    border-style: double;
+    border-color: white;
+    padding: 20px;
+    gap: 10px;
+    flex-grow: 1;
+    justify-content: stretch;
+    background-color: black;
+}
+
+#keys {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: stretch;
+    gap: 5px;
+    height: 400px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-grow: 1;
+    gap: 5px;
+    width: 400px;
+}
+
+button {
+    flex-grow: 1;
+    flex-basis: 100%;
+    border-radius: 5px;
+    border: 3px;
+
+    box-shadow: 2px;
+    border-color: white;
+    font-size: xx-large;
+}
+
+#equal {
+    
+    background-color: rgb(9, 9, 253);
+    color: white;
+}
+.operator {
+    background-color: gray;
+    color: white;
+}
+#DEL {
+    background-color: brown;
+    color: white;
+}
+#AC {
+    background-color: green;
+}
+
